@@ -4,11 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {StateProvider} from "./StateProvider";
-import {initialState} from "./reducer";
+import reducer, {initialState} from "./reducer";
 
 ReactDOM.render(
     <React.StrictMode>
-        {/* State Provider lets every component gets acces to the data layer */}
+        {/* State Provider lets every component gets access to the data layer */}
         <StateProvider initialState={initialState} reducer={reducer}>
             <App/>
         </StateProvider>

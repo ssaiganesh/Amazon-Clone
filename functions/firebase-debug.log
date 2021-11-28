@@ -1,0 +1,17 @@
+[debug] [2021-11-28T12:51:53.636Z] ----------------------------------------------------------------------
+[debug] [2021-11-28T12:51:53.638Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2021-11-28T12:51:53.638Z] CLI Version:   9.23.0
+[debug] [2021-11-28T12:51:53.638Z] Platform:      darwin
+[debug] [2021-11-28T12:51:53.638Z] Node Version:  v14.17.5
+[debug] [2021-11-28T12:51:53.639Z] Time:          Sun Nov 28 2021 20:51:53 GMT+0800 (Singapore Standard Time)
+[debug] [2021-11-28T12:51:53.639Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-28T12:51:53.689Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-28T12:51:53.689Z] > authorizing via signed-in user (shankarsaiganesh@gmail.com)
+[debug] [2021-11-28T12:51:53.689Z] [iam] checking project ecommerce-4d68b for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-11-28T12:51:53.691Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-11-28T12:51:53.691Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-11-28T12:51:53.770Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Sun, 28 Nov 2021 12:51:53 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-28T12:51:53.821Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/ecommerce-4d68b:testIamPermissions  
+ {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasehosting.sites.update"]}
